@@ -1,0 +1,17 @@
+ul {
+  width300px;
+}
+li {
+  width 32%;
+  display inline-block;
+  text-align center;
+}
+a {
+  display block;
+  font-size 0.9rem;
+  color #666;
+}
+i.fa {
+  display block;
+  font-size 2rem;
+}
