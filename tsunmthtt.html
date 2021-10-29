@@ -1,0 +1,28 @@
+
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset14A"
+                    src="asset14A-tsunami/assets/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+
+            <a-marker
+                id="animated-marker14A"
+                type="pattern"
+                preset="custom"
+                url="asset14A-tsunami/assets/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA14A"
+            >
+                <a-entity
+                    id="bowser-model14A"
+                    scale="0.02492724537279498 0.02492724537279498 0.02492724537279498"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset14A"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
