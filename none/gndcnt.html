@@ -1,0 +1,26 @@
+<a-assets>
+                <a-asset-item
+                    id="animated-asset15A"
+                    src="asset15A-ground-contamination/assets/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+
+            <a-marker
+                id="animated-marker15A"
+                type="pattern"
+                preset="custom"
+                url="asset15A-ground-contamination/assets/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA15A"
+            >
+                <a-entity
+                    id="bowser-model15A"
+                    scale="0.014803284765752477 0.014803284765752477 0.014803284765752477"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset15A"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+    </a-marker>

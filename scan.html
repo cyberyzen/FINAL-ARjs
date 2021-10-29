@@ -21,6 +21,172 @@
             embedded
             gesture-detector
         >
+<a-assets>
+                <a-asset-itema
+                    id="animated-asset1"
+                    src="asset1-forest-fire/asset.gltf"
+                ></a-asset-item>
+            </a-assets>
+            <a-marker
+                id="animated-marker1"
+                type="pattern"
+                preset="custom"
+                url="asset1-forest-fire/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA1"
+            >
+                <a-entity
+                    id="bowser-model1"
+                    scale="0.0005797996036131701 0.0005797996036131701 0.0005797996036131701"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset1"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
+
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset4"
+                    src="asset4-flood/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+            <a-marker
+                id="animated-marker4"
+                type="pattern"
+                preset="custom"
+                url="asset4-flood/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA4"
+            >
+                <a-entity
+                    id="bowser-model4"
+                    scale="0.02927999323059895 0.02927999323059895 0.02927999323059895"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset4"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
+
+
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset2"
+                    src="asset2-volcano/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+            <a-marker
+                id="animated-marker2"
+                type="pattern"
+                preset="custom"
+                url="asset2-volcano/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA2"
+            >
+                <a-entity
+                    id="bowser-model2"
+                    scale="0.9109842918183348 0.9109842918183348 0.9109842918183348"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset2"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
+            
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset"
+                    src="assets/asset.glb"
+                ></a-asset-item>
+            </a-assets>           
+           <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"      
+            >
+                <a-entity
+                    id="bowser-model"
+                    scale="0.07726469296997367 0.07726469296997367 0.07726469296997367"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
+
+
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset12"
+                    src="asset12-tectonicplate/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+            <a-marker
+                id="animated-marker12"
+                type="pattern"
+                preset="custom"
+                url="asset12-tectonicplate/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA12"
+            >
+                <a-entity
+                    id="bowser-model12"
+                    scale="13.747590756528108 13.747590756528108 13.747590756528108"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset12"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
+
+
+
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset13A"
+                    src="asset13A-storm/assets/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+
+            <a-marker
+                id="animated-marker13A"
+                type="pattern"
+                preset="custom"
+                url="asset13A-storm/assets/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA13A"
+            >
+                <a-entity
+                    id="bowser-model13A"
+                    scale="0.0027858290510674386 0.0027858290510674386 0.0027858290510674386"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset10"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
+
 
 
 <a-assets>
@@ -49,37 +215,6 @@
                     gesture-handler
                 ></a-entity>
 </a-marker>
-
-
-<a-assets>
-                <a-asset-item
-                    id="animated-asset15A"
-                    src="asset15A-ground-contamination/assets/asset.glb"
-                ></a-asset-item>
-            </a-assets>
-
-            <a-marker
-                id="animated-marker15A"
-                type="pattern"
-                preset="custom"
-                url="asset15A-ground-contamination/assets/marker.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA15A"
-            >
-                <a-entity
-                    id="bowser-model15A"
-                    scale="0.014803284765752477 0.014803284765752477 0.014803284765752477"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset15A"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-    </a-marker>
-
-
-
 
 
             <a-entity camera></a-entity>   
