@@ -6,18 +6,20 @@
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 <!-- Use it like any other HTML element -->
   
-  <center>
-<model-viewer id="mv-demo" shadow-intensity="1" src="./assets/tornado1.glb"
-alt="A 3D model of an tornado" auto-rotate camera-controls
-poster="./menu/icons/tornado.png"></model-viewer>
-    </center>
     
     
   <title>MODEL</title>
 </head>
 <body>
-<model-viewer id="toggle-poster" src="assets/tornado1.glb" controls
+  
+  <center>
+<model-viewer id="mv-demo" shadow-intensity="1" src="./assets/tornado1.glb"
+alt="A 3D model of an tornado" auto-rotate camera-controls
+poster="./menu/icons/tornado.png"></model-viewer>
+    </center>
+  <!--<model-viewer id="toggle-poster" src="assets/tornado1.glb" controls
 auto-rotate poster="menu/icons/tornado.png"></model-viewer>
+  -->
 <script>
     const posters = ['poster.png', 'poster2.png'];
     let i = 0;
