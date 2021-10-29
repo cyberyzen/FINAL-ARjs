@@ -26,3 +26,33 @@
                     gesture-handler
                 ></a-entity>
 </a-marker>
+
+
+
+
+<a-assets>
+                <a-asset-item
+                    id="animated-asset13A"
+                    src="asset13A-storm/assets/asset.glb"
+                ></a-asset-item>
+            </a-assets>
+
+            <a-marker
+                id="animated-marker13A"
+                type="pattern"
+                preset="custom"
+                url="asset13A-storm/assets/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA13A"
+            >
+                <a-entity
+                    id="bowser-model13A"
+                    scale="0.0027858290510674386 0.0027858290510674386 0.0027858290510674386"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset10"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+</a-marker>
